@@ -70,3 +70,7 @@ A simple linear regression model was used to predict ranks based on average scor
 **Node.js:** Backend runtime environment.<br /> 
 **Express:** Web framework for building the API.<br /> 
 **Axios:** HTTP client for fetching data from APIs.<br /> 
+
+## Explanation Video
+
+[https://www.loom.com/share/c6d528937b4144288a19edc4175d107d?sid=9f1ce536-df6e-4b4c-a2d3-2d26a0cc930e]
