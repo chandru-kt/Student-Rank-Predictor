@@ -5,10 +5,10 @@ The **Student Rank Predictor** is a Node.js-based API that analyzes student quiz
 
 ## Features
 
-**Rank Prediction:** Predicts a student's NEET rank based on quiz scores and topic accuracy.
-**College Recommendation:** Recommends colleges based on the predicted rank.
-**Weak Area Identification:** Identifies topics where the student needs improvement.
-**Improvement Suggestions:** Provides actionable suggestions for improving performance.
+**Rank Prediction:** Predicts a student's NEET rank based on quiz scores and topic accuracy.<br /> 
+**College Recommendation:** Recommends colleges based on the predicted rank.<br /> 
+**Weak Area Identification:** Identifies topics where the student needs improvement.<br /> 
+**Improvement Suggestions:** Provides actionable suggestions for improving performance.<br /> 
 
 ## Setup Instructions
 
@@ -24,14 +24,14 @@ npm start
 
 **Use Postman or curl** to send a POST request to [https://localhost:5000/predict] with the following JSON body:
 
-{
-  "quizScores": [80, 85, 90, 78, 88],
-  "topicAccuracy": {
-    "Biology": 0.85,
-    "Chemistry": 0.75,
-    "Physics": 0.70
-  }
-}
+{<br /> 
+  "quizScores": [80, 85, 90, 78, 88],<br /> 
+  "topicAccuracy": {<br /> 
+    "Biology": 0.85,<br /> 
+    "Chemistry": 0.75,<br /> 
+    "Physics": 0.70<br /> 
+  }<br /> 
+}<br /> 
 
 **Expected Response:**
 
