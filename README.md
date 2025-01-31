@@ -22,7 +22,7 @@ npm start
 
 ## Test the API
 
-**Use Postman or curl** to send a POST request to [http://localhost:5000/predict] with the following JSON body:
+**Use Postman or curl** to send a POST request to [https://localhost:5000/predict] with the following JSON body:
 
 {
   "quizScores": [80, 85, 90, 78, 88],
