@@ -44,10 +44,10 @@ const preprocessHistoricalQuizData = (data) => {
 
 // Train a simple linear regression model
 const trainModel = (data) => {
-  // Example: Predict rank based on average score
+  
   const model = {
-    slope: -100,  // Example slope
-    intercept: 10000,  // Example intercept
+    slope: -100,  
+    intercept: 10000,  
   };
 
   return model;
