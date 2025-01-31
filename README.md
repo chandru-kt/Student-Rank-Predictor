@@ -35,24 +35,24 @@ npm start
 
 **Expected Response:**
 
-{
-  "predictedRank": 1500,
-  "recommendedCollege": "Medical College B",
-  "weakAreas": ["Physics"],
-  "suggestions": "Focus on Physics topics and practice more numerical problems."
-}
+{<br /> 
+  "predictedRank": 1500,<br /> 
+  "recommendedCollege": "Medical College B",<br /> 
+  "weakAreas": ["Physics"],<br /> 
+  "suggestions": "Focus on Physics topics and practice more numerical problems."<br /> 
+}<br /> 
 
 ## Project Approach
 
 ### Data Collection
 
-Current Quiz Data: Fetched from [https://www.jsonkeeper.com/b/LLQT].
-Quiz Submission Data: Fetched from [https://api.jsonserve.com/rJvd7g].
-Historical Quiz Data: Fetched from [https://api.jsonserve.com/XgAgFJ].
+Current Quiz Data: Fetched from [https://www.jsonkeeper.com/b/LLQT].<br /> 
+Quiz Submission Data: Fetched from [https://api.jsonserve.com/rJvd7g].<br /> 
+Historical Quiz Data: Fetched from [https://api.jsonserve.com/XgAgFJ].<br /> 
 
 ### Data Preprocessing
 
-Average Score Calculation: Calculated the average score for each student.
+Average Score Calculation: Calculated the average score for each student.<br /> 
 Topic Accuracy Calculation: Determined accuracy for each topic based on the **response_map**.
 
 ### Model Training
@@ -67,6 +67,6 @@ A simple linear regression model was used to predict ranks based on average scor
 
 ## Technologies Used
 
-**Node.js:** Backend runtime environment.
-**Express:** Web framework for building the API.
-**Axios:** HTTP client for fetching data from APIs.
+**Node.js:** Backend runtime environment.<br /> 
+**Express:** Web framework for building the API.<br /> 
+**Axios:** HTTP client for fetching data from APIs.<br /> 
